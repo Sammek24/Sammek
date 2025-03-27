@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Application Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Internship Application Form</h1>
+        <img src="https://i.tribune.com.pk/media/images/656182-scholars-1389151671/656182-scholars-1389151671.jpg"width="200" length="130">
+        <form action="/submit_application" method="POST" enctype="multipart/form-data">
+
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="university">University/College:</label><br>
+            <input type="text" id="university" name="university" required><br>
+
+            <label for="field">Internship Field:</label><br>
+            <input type="text" id="field" name="field" required><br>
+
+            <label for="resume">Upload Resume:</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br>
+
+            <label for="motivation">Why do you want to join this internship?</label><br>
+            <textarea id="motivation" name="motivation" required></textarea><br>
+
+            <input type="submit" value="Submit Application"><br>
+        </form>
+    </div>
+
+</body>
+
+</html>
